@@ -22,7 +22,7 @@ class SettingsViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        //
+        //Show default tip percentage on settings screen
         tipPercentageController.selectedSegmentIndex = getDefaultTip()
     }
     
