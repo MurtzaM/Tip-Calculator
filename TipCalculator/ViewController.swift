@@ -21,6 +21,11 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
+        UIView.animate(withDuration: 1.0) {
+            self.billField.center.x += self.view.bounds.width
+            self.tipLabel.center.x += self.view.bounds.width
+            self.totalLabel.center.x += self.view.bounds.width
+        }
         billField.becomeFirstResponder()
     }
     override func didReceiveMemoryWarning() {
@@ -34,6 +39,9 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tipControl.selectedSegmentIndex = getDefaultTip()
+        billField.center.x  -= view.bounds.width
+        tipLabel.center.x  -= view.bounds.width
+        totalLabel.center.x  -= view.bounds.width
         //Recalculate tip in case default tip percentage setting changed
         self.calculateTip(sender:tipControl)
     }
