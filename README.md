@@ -21,7 +21,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Updated the UI color scheme
+- [x] Updated the UI color scheme and layout
+- [x] Added a feature to store the minimum tip amount in the settings view
 
 ## Video Walkthrough 
 
