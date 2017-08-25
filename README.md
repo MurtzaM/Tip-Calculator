@@ -4,7 +4,7 @@
 
 Submitted by: **Murtza Manzur**
 
-Time spent: **6** hours spent in total
+Time spent: **7** hours spent in total
 
 ## User Stories
 
@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of the implemented user stories:
 
-<img src='http://imgur.com/aHEnG1g.gif' title='Video Walkthrough' width='450' alt='Video Walkthrough' />
+<img src='http://imgur.com/vRpt86d.gif' title='Video Walkthrough' width='450' alt='Video Walkthrough' />
 
 GIF created with [Imgur](https://imgur.com).
 
